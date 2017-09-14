@@ -184,7 +184,7 @@ plt.ylabel("Height")
 
 
 
-    <matplotlib.text.Text at 0x11a337400>
+    <matplotlib.text.Text at 0x10caa3400>
 
 
 
@@ -548,9 +548,9 @@ clf_l, Xtrain_l, ytrain_l, Xtest_l, ytest_l  = do_classify(LogisticRegression(),
                                                            dflog, ['Weight', 'Height'], 'Gender','Male')
 ```
 
-    BEST PARAMS {'C': 0.01}
+    BEST PARAMS {'C': 0.1}
     Accuracy on training data: 0.92
-    Accuracy on test data:     0.91
+    Accuracy on test data:     0.92
 
 
 
@@ -639,13 +639,13 @@ clf_l.predict_proba(Xtest_l)
 
 
 
-    array([[  6.28974020e-01,   3.71025980e-01],
-           [  1.35720390e-01,   8.64279610e-01],
-           [  1.16835229e-01,   8.83164771e-01],
+    array([[  7.84677919e-01,   2.15322081e-01],
+           [  4.04033414e-01,   5.95966586e-01],
+           [  5.37080666e-01,   4.62919334e-01],
            ..., 
-           [  2.27440268e-02,   9.77255973e-01],
-           [  2.90840334e-04,   9.99709160e-01],
-           [  9.49548380e-01,   5.04516202e-02]])
+           [  1.99235890e-01,   8.00764110e-01],
+           [  9.34593935e-04,   9.99065406e-01],
+           [  9.64910930e-01,   3.50890704e-02]])
 
 
 
